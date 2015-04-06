@@ -15,8 +15,12 @@
 <body>
     <form id="form1" runat="server">
     <div>
+
     </div>
         <CKEditor:CKEditorControl ID="CKEditorControl1" runat="server" OnTextChanged="CKEditorControl1_TextChanged"></CKEditor:CKEditorControl>
+    
+
+</script>
     </form>
 </body>
 </html>

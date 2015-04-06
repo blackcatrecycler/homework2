@@ -14,6 +14,7 @@ public partial class _Default : System.Web.UI.Page
         CKFinder.FileBrowser fileBrowser = new CKFinder.FileBrowser();
         fileBrowser.BasePath = "/ckfinder/";  //设置CKFinder的基路径  
         fileBrowser.SetupCKEditor(CKEditorControl1);
+        
     }
     protected void CKEditorControl1_TextChanged(object sender, EventArgs e)
     {
